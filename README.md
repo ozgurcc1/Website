@@ -36,10 +36,10 @@ Users should be able to:
 ![Desktop](./img/screenshot1.JPG)
 
 
-![Flexible Menu](./img/screenshot2.JPG)
+![Flexible Menu](./img/screenshot2.JPG) ![Mobile](./img/screenshot3.JPG)
 
 
-![Mobile](./img/screenshot3.JPG)
+
 
 
 
