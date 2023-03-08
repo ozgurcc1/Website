@@ -36,7 +36,7 @@ Users should be able to:
 ![Desktop](./img/screenshot1.JPG)
 
 
-![Flexible Menu](./img/screenshot2.JPG) ![Mobile](./img/screenshot3.JPG)
+![Flexible Menu](./img/screenshot2.JPG) |  ![Mobile](./img/screenshot3.JPG)
 
 
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://cart-git-master-ozgurcc1.vercel.app/
+- Solution URL: https://website-git-master-ozgurcc1.vercel.app/
 
 
 ## My process
