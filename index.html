@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="css/style.css">
+
+   <!-- Google Fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+  
+  <title>Frontend Mentor | News homepage</title>
+
+  
+  
+</head>
+<body>
+ 
+
+
+  <!-- Nav -->
+
+  <button class="mobile-nav-toggle" aria-controls="primary-navigation" 
+  aria-expanded="false">
+    <span class="sr-only">Menu</span>
+  </button>
+  
+  <nav>
+      
+    <a href="default.src"><img src="assets/images/logo.svg" alt="Logo" class="logo"></a>
+      
+      <ul id="primary-navigation" data-visible="false" class="nav-menu"> 
+       
+        <li class="item"><a href="#">Home</a></li>
+        <li class="item"><a href="#">New</a></li>
+        <li class="item"><a href="#">Popular</a></li>
+        <li class="item"><a href="#">Trending</a></li>
+        <li class="item"><a href="#">Categories</a></li>
+      </ul>
+    </nav>
+      
+      
+ 
+ <!-- Main Part -->
+ <main class="wrapper"> 
+  
+
+  <div class="content-main">
+    <div>
+      <img src="assets/images/image-web-3-desktop.jpg" alt="imageOne" class="content__img">
+    </div>
+  
+   <div class="content-main__row">
+  
+      <h1 class="content-main__text contain-main__text--write">The Bright Future of Web 3.0?</h1>
+ 
+    <div class="content-main__article">
+       <p class="content-main__news content-main__news--description"> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+      But is it really fulfilling its promise?</p>
+      <button class="content-main__button content-main__button--color">Read more</button>
+    </div>
+   </div>
+  </div>
+
+
+ <!-- Card -->
+  <div class="card">
+
+   <article class="card__column">
+    <article class="card__value card__value--in">
+      
+     <h2 class="card__value card__value--new">New</h2> 
+
+     <h4><a>Hydrogen VS Electric Cars</a></h4>
+     <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+ 
+    </article>
+   </article>
+
+    <article class="card__column"> 
+      <article class="card__value card__value--in">
+
+        <h4><a>The Downsides of AI Artistry</a></h4>
+        <p>What are the possible adverse effects of on-demand AI image generation?</p>
+
+      </article>
+    </article>
+
+    <article class="card__column">
+      <article class="card__value card__value--in">
+
+        <h4><a>Is VC Funding Drying Up?</a></h4>  
+        <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </article>
+
+  </div>
+
+
+<!-- News Part -->
+ 
+  <div class="games">
+
+    <div class="games__row">
+      <img src="assets/images/image-retro-pcs.jpg" alt="retro-pcs" class="games__row--img">
+
+       <div class="games__news games__news--value">
+        <div class="games__news--number">01</div>
+        <a class="games__news--pc">Reviving Retro PCs</a>
+        <p class="games__retro--sort">What happens when old PCs are given modern upgrades?</p>
+       </div>
+    </div>
+
+    <div class="games__row">
+       <img src="assets/images/image-top-laptops.jpg" alt="top-laptops" class="games__row--img">
+       
+       <div class="games__news games__news--value">
+        <div class="games__news--number">02</div>
+        <a class="games__news--pc">Top 10 Laptops of 2022</a>
+        <p class="games__retro--sort">Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+
+
+    <div class="games__row">
+       <img src="assets/images/image-gaming-growth.jpg" alt="gaming-growth" class="games__row--img">
+       <div class="games__news games__news--value">
+           <div class="games__news--number">03</div>
+           <a class="games__news--pc">The Growth of Gaming</a>
+           <p class="games__retro--sort">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+    </div>
+
+  </div>
+ 
+</main>
+  
+
+  
+
+  
+  <footer><div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ozgur Celik</a>.
+  </div></footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
